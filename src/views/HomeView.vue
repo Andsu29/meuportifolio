@@ -11,15 +11,15 @@
         HTML, CSS e JavaScript
       </h2>
     </div>
-    <!--
+
     <div class="div-img">
       <img
         class="perfil"
-        src="..\src\assets\perfil\tinywow_profile_photo_19972869.png"
+        src="../assets/perfil/tinywow_profile_photo_19972869.png"
         alt="perfil"
       />
     </div>
-    -->
+
     <redes-view class="contato-none" />
   </div>
 </template>

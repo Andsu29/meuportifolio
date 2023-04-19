@@ -3,12 +3,11 @@
     <div v-if="loading">
       <loading-view />
     </div>
-    <!--
 
     <div v-else class="container html">
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\animais.png" alt="animais" />
+          <img src="../assets/imgProjetos/animais.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Animais Fantásticos</h1>
@@ -26,7 +25,7 @@
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\bikcraft.png" alt="animais" />
+          <img src="../assets/imgProjetos/bikcraft.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Bikcraft</h1>
@@ -41,7 +40,7 @@
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\conversor.png" alt="animais" />
+          <img src="../assets/imgProjetos/conversor.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Conversor de Moedas</h1>
@@ -57,7 +56,7 @@
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\rocketPay.png" alt="animais" />
+          <img src="../assets/imgProjetos/rocketPay.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Rocketpay</h1>
@@ -73,7 +72,7 @@
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\caravan.png" alt="animais" />
+          <img src="../assets/imgProjetos/caravan.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Caravan</h1>
@@ -89,7 +88,7 @@
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="..\src\assets\imgProjetos\listaTarefa.png" alt="animais" />
+          <img src="../assets/imgProjetos/listaTarefa.png" alt="animais" />
         </div>
         <div class="conteudo">
           <h1 class="titulo">Lista de Tarefas</h1>
@@ -104,7 +103,6 @@
         </div>
       </div>
     </div>
-    -->
   </div>
 </template>
 
