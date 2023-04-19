@@ -11,24 +11,14 @@
     </p>
     <div class="minhas-skills">
       <h1>Minhas skills</h1>
-      <!--
 
       <div class="skills">
-        <img title="HTML" src="..\src\assets\skills\html5.svg" alt="" />
-        <img title="CSS" src="..\src\assets\skills\css3.svg" alt="" />
-        <img
-          title="JavaScript"
-          src="..\src\assets\skills\javascript.svg"
-          alt=""
-        />
-        <img
-          title="Bootstrap"
-          src="..\src\assets\skills\bootstrap.svg"
-          alt=""
-        />
-        <img title="Vuejs" src="..\src\assets\skills\vue.svg" alt="" />
+        <img title="HTML" src="../assets/skills/html5.svg" alt="" />
+        <img title="CSS" src="../assets/skills/css3.svg" alt="" />
+        <img title="JavaScript" src="../assets/skills/javascript.svg" alt="" />
+        <img title="Bootstrap" src="../assets/skills/bootstrap.svg" alt="" />
+        <img title="Vuejs" src="../assets/skills/vue.svg" alt="" />
       </div>
-      -->
     </div>
   </div>
 </template>
