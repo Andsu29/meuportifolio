@@ -2,17 +2,12 @@
   <div class="header">
     <router-link id="link-home" to="/">Portfólio</router-link>
     <nav class="navegacao">
-      <!--
-
-      <img class="obj1" src="..\src\assets\objD.svg" alt="objeto" />
-      -->
+      <img class="obj1" src="../assets/objD.svg" alt="objeto" />
       <router-link to="/">Home</router-link>
       <router-link to="/projetos">Projetos</router-link>
       <router-link to="/sobre">Sobre</router-link>
-      <!--
 
-      <img class="obj2" src="..\src\assets\objE.svg" alt="objeto" />
-      -->
+      <img class="obj2" src="../assets/objE.svg" alt="objeto" />
     </nav>
   </div>
 </template>
