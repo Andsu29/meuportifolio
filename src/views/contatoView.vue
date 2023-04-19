@@ -3,7 +3,7 @@
     <div class="redes">
       <div class="div-link">
         <a title="GitHub" href="https://github.com/Andsu29">
-          <img src="..\src\assets\iconColors\github.svg" alt="github" />
+          <img src="../assets/iconColors/github.svg" alt="github" />
         </a>
       </div>
       <div class="div-link">
@@ -11,26 +11,22 @@
           title="Linkedin"
           href="https://www.linkedin.com/in/anderson-duarte-74346b240/"
         >
-          <img src="..\src\assets\iconColors\linkedin.svg" alt="linkedin" />
+          <img src="../assets/iconColors/linkedin.svg" alt="linkedin" />
         </a>
       </div>
       <div class="div-link">
         <a title="Instagram" href="https://www.instagram.com/andsu_duart/">
-          <img src="..\src\assets\iconColors\instagram.svg" alt="instagram" />
+          <img src="../assets/iconColors/instagram.svg" alt="instagram" />
         </a>
       </div>
       <div class="div-link">
         <a title="Email" href="mailto:andersonduarteg4@gmail.com">
-          <img src="..\src\assets\iconColors\email.svg" alt="email" />
+          <img src="../assets/iconColors/email.svg" alt="email" />
         </a>
       </div>
       <div class="div-link">
         <a title="WhatsApp" href="https://wa.me/5551994323519">
-          <img
-            class="whats"
-            src="..\src\assets\iconColors\whats.svg"
-            alt="whats"
-          />
+          <img class="whats" src="../assets/iconColors/whats.svg" alt="whats" />
         </a>
       </div>
     </div>
