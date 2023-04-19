@@ -3,6 +3,8 @@
     <div v-if="loading">
       <loading-view />
     </div>
+    <!--
+
     <div v-else class="container html">
       <div class="projeto-card">
         <div class="img">
@@ -102,6 +104,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
 </template>
 
