@@ -11,6 +11,7 @@
         HTML, CSS e JavaScript
       </h2>
     </div>
+    <!--
     <div class="div-img">
       <img
         class="perfil"
@@ -18,6 +19,7 @@
         alt="perfil"
       />
     </div>
+    -->
     <redes-view class="contato-none" />
   </div>
 </template>
