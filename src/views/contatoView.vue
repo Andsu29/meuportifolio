@@ -1,8 +1,6 @@
 <template>
   <div class="contato-container">
     <div class="redes">
-      <!--
-
       <div class="div-link">
         <a title="GitHub" href="https://github.com/Andsu29">
           <img src="..\src\assets\iconColors\github.svg" alt="github" />
@@ -35,7 +33,6 @@
           />
         </a>
       </div>
-      -->
     </div>
   </div>
 </template>
