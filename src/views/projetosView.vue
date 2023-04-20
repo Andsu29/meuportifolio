@@ -7,7 +7,9 @@
     <div v-else class="container html">
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/animais.png" alt="animais" />
+          <a href="https://andsu29.github.io/animais-fantasticos-slide/">
+            <img src="../assets/imgProjetos/animais.png" alt="animais" />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Animais Fantásticos</h1>
@@ -18,13 +20,21 @@
             tambem codificado do zero.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://andsu29.github.io/animais-fantasticos-slide/"
+                  >Ver Projeto</a
+                >
+              </p>
+            </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/bikcraft.png" alt="animais" />
+          <a href="https://projetbikcraft.netlify.app/">
+            <img src="../assets/imgProjetos/bikcraft.png" alt="bikcraft" />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Bikcraft</h1>
@@ -33,13 +43,19 @@
             desenvolvimento completo do HTML, CSS e JavaScript do Site.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://projetbikcraft.netlify.app/"> Ver Projeto</a>
+              </p>
+            </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/conversor.png" alt="animais" />
+          <a href="https://andsu29.github.io/conversor-de-moedas/">
+            <img src="../assets/imgProjetos/conversor.png" alt="conversor" />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Conversor de Moedas</h1>
@@ -49,13 +65,21 @@
             pensei mais.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://andsu29.github.io/conversor-de-moedas/"
+                  >Ver Projeto</a
+                >
+              </p>
+            </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/rocketPay.png" alt="animais" />
+          <a href="https://explore-lab-omega.vercel.app/">
+            <img src="../assets/imgProjetos/rocketPay.png" alt="rocketPay" />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Rocketpay</h1>
@@ -65,13 +89,19 @@
             utilizando ferramentas como Imask,npm e Regex.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://explore-lab-omega.vercel.app/">Ver Projeto </a>
+              </p>
+            </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/caravan.png" alt="animais" />
+          <a href="https://admirable-pasca-ffa679.netlify.app/">
+            <img src="../assets/imgProjetos/caravan.png" alt="caravan" />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Caravan</h1>
@@ -81,13 +111,24 @@
             interativo.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://admirable-pasca-ffa679.netlify.app/"
+                  >Ver Projeto</a
+                >
+              </p>
+            </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
         <div class="img">
-          <img src="../assets/imgProjetos/listaTarefa.png" alt="animais" />
+          <a href="https://lista-de-tarefa-lime.vercel.app/">
+            <img
+              src="../assets/imgProjetos/listaTarefa.png"
+              alt="listaTarefa"
+            />
+          </a>
         </div>
         <div class="conteudo">
           <h1 class="titulo">Lista de Tarefas</h1>
@@ -97,7 +138,13 @@
             salvar as suas tarefas.
           </p>
           <div class="div-btn">
-            <button class="btn"><p class="gradiente">Ver Projeto</p></button>
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://lista-de-tarefa-lime.vercel.app/"
+                  >Ver Projeto</a
+                >
+              </p>
+            </button>
           </div>
         </div>
       </div>
