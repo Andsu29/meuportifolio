@@ -15,8 +15,7 @@
             Projeto concluído no curso de JavaScript da Origamid, todo
             codificado do zero, responsivo, com animações no scroll, modal, API
             puxando dados externos como valor de bitcoin em real e um slide
-            tambem codificado do zero unificando a este projeto. Utilizando
-            ferramentas como Visual Studio Code, Node.js, Npm e Git.
+            tambem codificado do zero.
           </p>
           <div class="div-btn">
             <button class="btn"><p class="gradiente">Ver Projeto</p></button>
@@ -205,6 +204,151 @@ img {
   }
   to {
     opacity: 1;
+  }
+}
+@media (max-width: 1000px) {
+  .projeto-card {
+    height: 450px;
+    width: 800px;
+  }
+  .conteudo {
+    padding: 30px;
+  }
+  img {
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (max-width: 850px) {
+  .projeto-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    width: 700px;
+  }
+  .conteudo {
+    padding: 20px;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .descricao {
+    text-align: center;
+  }
+  .div-btn {
+    margin: 0 auto;
+  }
+  img {
+    width: 270px;
+    height: 400px;
+  }
+}
+@media (max-width: 720px) {
+  .projeto-card {
+    height: 450px;
+    width: 600px;
+  }
+  .conteudo {
+    padding: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 30px;
+  }
+  .descricao {
+    text-align: center;
+    font-size: 16px;
+  }
+  .div-btn {
+    margin: 0 auto;
+  }
+  img {
+    width: 240px;
+    height: 400px;
+  }
+}
+@media (max-width: 620px) {
+  .projeto-card {
+    height: 400px;
+    width: 500px;
+  }
+  .conteudo {
+    padding: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 30px;
+  }
+  .descricao {
+    text-align: center;
+    font-size: 16px;
+  }
+  .div-btn {
+    margin: 0 auto;
+  }
+  img {
+    width: 200px;
+    height: 350px;
+  }
+}
+@media (max-width: 520px) {
+  .projeto-card {
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+  }
+  .conteudo {
+    padding: 15px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 20px;
+  }
+  .descricao {
+    text-align: center;
+    font-size: 12px;
+  }
+  .div-btn {
+    margin: 0 auto;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  img {
+    width: 150px;
+    height: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .projeto-card {
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+  }
+  .conteudo {
+    padding: 15px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 20px;
+  }
+  .descricao {
+    text-align: center;
+    font-size: 12px;
+  }
+  .div-btn {
+    margin: 0 auto;
+  }
+  .btn {
+    font-size: 12px;
+  }
+  img {
+    width: 150px;
+    height: 250px;
+  }
+  .container {
+    gap: 50px;
+    padding: 50px;
   }
 }
 </style>

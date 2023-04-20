@@ -122,4 +122,30 @@ ul li:nth-of-type(2)::after {
     background-position: 0 50%;
   }
 }
+@media (max-width: 700px) {
+  .texto-dinamico {
+    font-size: 35px;
+    height: 42px;
+  }
+  .loading {
+    padding-left: 240px;
+  }
+}
+@media (max-width: 600px) {
+  .loading {
+    padding-left: 210px;
+  }
+}
+@media (max-width: 450px) {
+  .loading {
+    padding-left: 145px;
+    height: 50vh;
+  }
+}
+@media (max-width: 400px) {
+  .loading {
+    padding-left: 120px;
+    height: 50vh;
+  }
+}
 </style>

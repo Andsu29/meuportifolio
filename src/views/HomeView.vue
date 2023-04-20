@@ -123,7 +123,7 @@ export default {
   }
   .perfil {
     padding-top: 50px;
-    padding-left: 110px;
+    padding-left: 100px;
     margin: 0 auto;
   }
   .contato-none {
