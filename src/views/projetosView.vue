@@ -3,12 +3,47 @@
     <div v-if="loading">
       <loading-view />
     </div>
-
     <div v-else class="container html">
       <div class="projeto-card">
-        <div class="img">
-          <a href="https://andsu29.github.io/animais-fantasticos-slide/">
-            <img src="../assets/imgProjetos/animais.png" alt="animais" />
+        <div>
+          <a href="https://technoecom.vercel.app/" target="_blank">
+            <img
+              class="img"
+              src="../assets/imgProjetos/techno.png"
+              alt="animais"
+            />
+          </a>
+        </div>
+        <div class="conteudo">
+          <h1 class="titulo">Techno</h1>
+          <p class="descricao">
+            Um pequeno projeto concluído no curso de VueJS da Origamid, podendo
+            adicionar e remover produtos ao carrinho com as informações salvas
+            no LocalStorage, sem usar componentes com a intenção de mostrar um
+            pouco do framework.
+          </p>
+          <div class="div-btn">
+            <button class="btn">
+              <p class="gradiente">
+                <a href="https://technoecom.vercel.app/" target="_blank"
+                  >Ver Projeto</a
+                >
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <div>
+          <a
+            href="https://andsu29.github.io/animais-fantasticos-slide/"
+            target="_blank"
+          >
+            <img
+              class="img"
+              src="../assets/imgProjetos/animais.png"
+              alt="animais"
+            />
           </a>
         </div>
         <div class="conteudo">
@@ -22,7 +57,9 @@
           <div class="div-btn">
             <button class="btn">
               <p class="gradiente">
-                <a href="https://andsu29.github.io/animais-fantasticos-slide/"
+                <a
+                  href="https://andsu29.github.io/animais-fantasticos-slide/"
+                  target="_blank"
                   >Ver Projeto</a
                 >
               </p>
@@ -31,9 +68,13 @@
         </div>
       </div>
       <div class="projeto-card">
-        <div class="img">
-          <a href="https://projetbikcraft.netlify.app/">
-            <img src="../assets/imgProjetos/bikcraft.png" alt="bikcraft" />
+        <div>
+          <a href="https://projetbikcraft.netlify.app/" target="_blank">
+            <img
+              class="img"
+              src="../assets/imgProjetos/bikcraft.png"
+              alt="bikcraft"
+            />
           </a>
         </div>
         <div class="conteudo">
@@ -45,30 +86,8 @@
           <div class="div-btn">
             <button class="btn">
               <p class="gradiente">
-                <a href="https://projetbikcraft.netlify.app/"> Ver Projeto</a>
-              </p>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="projeto-card">
-        <div class="img">
-          <a href="https://andsu29.github.io/conversor-de-moedas/">
-            <img src="../assets/imgProjetos/conversor.png" alt="conversor" />
-          </a>
-        </div>
-        <div class="conteudo">
-          <h1 class="titulo">Conversor de Moedas</h1>
-          <p class="descricao">
-            Neste projeto quis testar minhas habilidades com API em JavaScript,
-            utilizando o fetch, um projeto simples onde codifiquei menos e
-            pensei mais.
-          </p>
-          <div class="div-btn">
-            <button class="btn">
-              <p class="gradiente">
-                <a href="https://andsu29.github.io/conversor-de-moedas/"
-                  >Ver Projeto</a
+                <a href="https://projetbikcraft.netlify.app/" target="_blank">
+                  Ver Projeto</a
                 >
               </p>
             </button>
@@ -76,9 +95,13 @@
         </div>
       </div>
       <div class="projeto-card">
-        <div class="img">
-          <a href="https://explore-lab-omega.vercel.app/">
-            <img src="../assets/imgProjetos/rocketPay.png" alt="rocketPay" />
+        <div>
+          <a href="https://explore-lab-omega.vercel.app/" target="_blank">
+            <img
+              class="img"
+              src="../assets/imgProjetos/rocketPay.png"
+              alt="rocketPay"
+            />
           </a>
         </div>
         <div class="conteudo">
@@ -91,56 +114,39 @@
           <div class="div-btn">
             <button class="btn">
               <p class="gradiente">
-                <a href="https://explore-lab-omega.vercel.app/">Ver Projeto </a>
+                <a href="https://explore-lab-omega.vercel.app/" target="_blank"
+                  >Ver Projeto
+                </a>
               </p>
             </button>
           </div>
         </div>
       </div>
       <div class="projeto-card">
-        <div class="img">
-          <a href="https://admirable-pasca-ffa679.netlify.app/">
-            <img src="../assets/imgProjetos/caravan.png" alt="caravan" />
-          </a>
-        </div>
-        <div class="conteudo">
-          <h1 class="titulo">Caravan</h1>
-          <p class="descricao">
-            O projeto Caravan simula um site de viagens e nele utilizei o
-            Framework Bootstrap concluindo um site totalmente responsivo e
-            interativo.
-          </p>
-          <div class="div-btn">
-            <button class="btn">
-              <p class="gradiente">
-                <a href="https://admirable-pasca-ffa679.netlify.app/"
-                  >Ver Projeto</a
-                >
-              </p>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="projeto-card">
-        <div class="img">
-          <a href="https://lista-de-tarefa-lime.vercel.app/">
+        <div>
+          <a href="https://admirable-pasca-ffa679.netlify.app/" target="_blank">
             <img
-              src="../assets/imgProjetos/listaTarefa.png"
-              alt="listaTarefa"
+              class="img"
+              src="../assets/imgProjetos/caravan.png"
+              alt="caravan"
             />
           </a>
         </div>
         <div class="conteudo">
-          <h1 class="titulo">Lista de Tarefas</h1>
-          <p class="descricao">
-            Para praticar melhor a lógica de programação criei esta lista de
-            tarefas com JavaScript, na lista você pode adicionar, remover e
-            salvar as suas tarefas.
-          </p>
+          <h1 class="titulo">Caravan</h1>
+          <div class="div-descricao">
+            <p class="descricao">
+              O projeto Caravan simula um site de viagens e nele utilizei o
+              Framework Bootstrap concluindo um site totalmente responsivo e
+              interativo.
+            </p>
+          </div>
           <div class="div-btn">
             <button class="btn">
               <p class="gradiente">
-                <a href="https://lista-de-tarefa-lime.vercel.app/"
+                <a
+                  href="https://admirable-pasca-ffa679.netlify.app/"
+                  target="_blank"
                   >Ver Projeto</a
                 >
               </p>
@@ -148,6 +154,12 @@
           </div>
         </div>
       </div>
+      <button @click="subirScroll" class="seta">
+        <img src="../assets/imgProjetos/seta.svg" alt="seta" />
+      </button>
+      <button @click="subirScroll" class="seta2">
+        <img src="../assets/imgProjetos/seta.svg" alt="seta2" />
+      </button>
     </div>
   </div>
 </template>
@@ -163,7 +175,13 @@ export default {
     loadingTime() {
       setTimeout(() => {
         this.loading = false;
-      }, 4500);
+      });
+    },
+    subirScroll() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     },
   },
   created() {
@@ -173,13 +191,31 @@ export default {
 </script>
 
 <style scoped>
+.seta {
+  position: absolute;
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  background-color: transparent;
+  border: none;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.seta2 {
+  display: none;
+  background-color: transparent;
+  border: none;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
 * {
   box-sizing: border-box;
 }
 h1 {
   color: #f9f9f9;
+  text-align: center;
 }
-img {
+.img {
   display: block;
   width: 350px;
   height: 400px;
@@ -187,7 +223,9 @@ img {
   border-radius: 20px;
   object-fit: cover;
 }
-
+.img:hover {
+  opacity: 60%;
+}
 .container {
   min-height: 80vh;
   display: flex;
@@ -200,6 +238,7 @@ img {
 .projeto-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  flex: 1;
   height: 450px;
   width: 900px;
   background: linear-gradient(rgba(35, 37, 49, 0.5), rgba(15, 15, 24, 0.5));
@@ -211,7 +250,12 @@ img {
   flex-direction: column;
   justify-content: space-between;
   padding: 50px;
+  flex: 1;
   box-sizing: border-box;
+}
+.div-btn {
+  display: flex;
+  justify-content: center;
 }
 .btn {
   padding: 10px 30px;
@@ -225,7 +269,13 @@ img {
 }
 .descricao {
   font-size: 18px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 20px 0px;
+  text-align: center;
 }
+
 .gradiente {
   background: -webkit-linear-gradient(
     135deg,
@@ -253,6 +303,26 @@ img {
     opacity: 1;
   }
 }
+@media (max-width: 1350px) {
+  .seta {
+    right: 50px;
+    bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .seta {
+    right: 30px;
+    bottom: 20px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .seta {
+    right: 5px;
+    bottom: 20px;
+  }
+}
 @media (max-width: 1000px) {
   .projeto-card {
     height: 450px;
@@ -261,9 +331,17 @@ img {
   .conteudo {
     padding: 30px;
   }
-  img {
+  .img {
     width: 300px;
     height: 400px;
+  }
+  .seta {
+    display: none;
+  }
+  .seta2 {
+    display: block;
+    height: 55px;
+    width: 50px;
   }
 }
 @media (max-width: 850px) {
@@ -285,7 +363,7 @@ img {
   .div-btn {
     margin: 0 auto;
   }
-  img {
+  .img {
     width: 270px;
     height: 400px;
   }
@@ -309,7 +387,7 @@ img {
   .div-btn {
     margin: 0 auto;
   }
-  img {
+  .img {
     width: 240px;
     height: 400px;
   }
@@ -333,7 +411,7 @@ img {
   .div-btn {
     margin: 0 auto;
   }
-  img {
+  .img {
     width: 200px;
     height: 350px;
   }
@@ -361,7 +439,7 @@ img {
   .btn {
     font-size: 12px;
   }
-  img {
+  .img {
     width: 150px;
     height: 250px;
   }
@@ -389,7 +467,7 @@ img {
   .btn {
     font-size: 12px;
   }
-  img {
+  .img {
     width: 150px;
     height: 250px;
   }

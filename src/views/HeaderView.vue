@@ -50,6 +50,7 @@ img {
 nav a.router-link-exact-active {
   color: #84e;
 }
+
 @media (max-width: 500px) {
   .obj1 {
     display: none;
