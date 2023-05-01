@@ -2,7 +2,7 @@
   <div class="contato-container">
     <div class="redes">
       <div class="div-link">
-        <a title="GitHub" href="https://github.com/Andsu29">
+        <a title="GitHub" href="https://github.com/Andsu29" target="_blank">
           <img src="../assets/iconColors/github.svg" alt="github" />
         </a>
       </div>
@@ -10,22 +10,31 @@
         <a
           title="Linkedin"
           href="https://www.linkedin.com/in/anderson-duarte-74346b240/"
+          target="_blank"
         >
           <img src="../assets/iconColors/linkedin.svg" alt="linkedin" />
         </a>
       </div>
       <div class="div-link">
-        <a title="Instagram" href="https://www.instagram.com/andsu_duart/">
+        <a
+          title="Instagram"
+          href="https://www.instagram.com/andsu_duart/"
+          target="_blank"
+        >
           <img src="../assets/iconColors/instagram.svg" alt="instagram" />
         </a>
       </div>
       <div class="div-link">
-        <a title="Email" href="mailto:andersonduarteg4@gmail.com">
+        <a
+          title="Email"
+          href="mailto:andersonduarteg4@gmail.com"
+          target="_blank"
+        >
           <img src="../assets/iconColors/email.svg" alt="email" />
         </a>
       </div>
       <div class="div-link">
-        <a title="WhatsApp" href="https://wa.me/5551994323519">
+        <a title="WhatsApp" href="https://wa.me/5551994323519" target="_blank">
           <img class="whats" src="../assets/iconColors/whats.svg" alt="whats" />
         </a>
       </div>

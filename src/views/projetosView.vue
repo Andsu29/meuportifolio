@@ -175,7 +175,7 @@ export default {
     loadingTime() {
       setTimeout(() => {
         this.loading = false;
-      });
+      }, 4500);
     },
     subirScroll() {
       window.scrollTo({
